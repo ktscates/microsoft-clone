@@ -7,6 +7,10 @@ body {
     display: none;
 }
 
+.mySlides2 {
+  display: none;
+}
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
