@@ -26,3 +26,12 @@ function showSlides() {
   dots[slideIndex2-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
+
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
