@@ -4,9 +4,322 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Microsoft</title>
 </head>
-<body>
+
+<body >
+    <div class="w-10/12 mx-auto">
+        <header class="flex justify-between pt-5 items-center -ml-4">
+            <div class="flex justify-around space-x-5 text-sm">
+                <a><img class="h-5 w-32" src="./img/logo.svg" alt="logo"></a>
+                <a href="">Microsoft 365</a>
+                <a href="">Office</a>
+                <a href="">Windows</a>
+                <a href="">Surface</a>
+                <a href="">Xbox</a>
+                <a href="">Deals</a>
+                <a href="">Support</a>
+            </div>
+
+            <div class="space-x-5 text-sm mr-3">
+                <select>
+                    <option value="">All Microsoft</option>
+                </select>
+                <a>Search</a>
+                <a>Cart</a>
+                <a>Signin</a>
+            </div>
+        </header>
+
+        <section class="mt-4">
+            <div class="w-full bg-red-600 text-white text-xs underline text-center p-3">
+                <a href="">Check off your list early this year. Shop holiday gifts</a>
+            </div>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="./img/cover1.jpeg" class="w-full relative">
+                    <div class="absolute top-56 ml-28 text-white space-y-4">
+                        <h3 class="text-4xl font-bold">Microsoft Ignite</h3>
+                        <p class="text-sm">Hear Microsoft leadershipt reaceal innovatiion that shaping the flexible and<br> secure business environments of the future at this Nov 2-4 digital event</p>
+                        <button class="text-black p-2 hover:underline bg-white font-bold text-sm">Join in at 9:00 AM PST</button>
+                    </div>
+                    
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/cover2.webp" class="w-full relative">
+                    <div class="absolute top-56 ml-28 text-black space-y-4">
+                        <h3 class="text-4xl font-bold">Early Black Friday PC Sale</h3>
+                        <p class="text-sm">Gift or get a major upgrade with select PCs starting at 199.99. Book an<br> appointment to get one-on-one help with your holiday shopping. Sale ends<br> 11/4</p>
+                        <button class="text-white p-2 hover:underline bg-black font-bold text-sm">Shop Early Black Friday PC Sale</button><br>
+                        <button href="" class="hover:underline text-red-900 font-bold text-sm">Book an appointment</button>
+                    </div>
+                    
+                </div>
+                
+                <div class="text-center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+
+            </div> 
+            
+        </section>
+
+        <section class="flex justify-center space-x-28 p-20 mx-auto">
+            <div>
+                <img class="mx-auto" src="./img/windows.png" alt="">
+                <button class="text-sm text-red-900 font-bold hover:underline">Choose your<br> Microsoft 365</button>
+            </div>
+            <div>
+                <img class="mx-auto" src="./img/surface.webp" alt="">
+                <button class="text-sm text-red-900 font-bold hover:underline">Shop Surface<br> devices</button>
+            </div>
+            <div>
+                <img class="mx-auto" src="./img/xbox.webp" alt="">
+                <button class="text-sm text-red-900 font-bold hover:underline">Buy Xbox games<br> and consoles</button>
+            </div>
+            <div>
+                <img class="mx-auto" src="./img/windows.png" alt="">
+                <button class="text-sm text-red-900 font-bold hover:underline">Get Windows 11</button>
+            </div>
+            <div>
+                <img class="mx-auto" src="./img/pc.webp" alt="">
+                <button class="text-sm text-red-900 font-bold hover:underline">Find your next PC</button>
+            </div>
+            <div>
+                <img class="mx-auto" src="./img/briefcase.webp" alt="">
+                <button class="text-sm text-red-900 font-extrabold hover:underline">Shop Business</button>
+            </div>
+        </section>
+
+        <section class="flex justify-between py-10">
+            <div class="space-y-5">
+                <img src="./img/surface1.webp" alt="">
+                <h3 class="text-xl font-bold">Save up to $200 on select Surface<br> Laptop Go</h3>
+                <p class="text-sm">Give inspiration with the style, performance, and<br> portability of our lightest Surface laptop yet.</p>
+                <button class="hover:underline text-red-900 font-bold text-sm">Shop Surface Laptop Go</button>
+            </div>
+            <div class="space-y-5">
+                <img src="./img/surface2.webp" alt="">
+                <h3 class="text-xl font-bold">Save $150 on select Surface Laptop 4</h3>
+                <p class="text-sm">Treat yourself or someone special to the perfect<br> balance of style, performance, and speed.</p>
+                <button class="hover:underline text-red-900 font-bold text-sm">Shop Surface Laptop 4</button>
+            </div>
+            <div class="space-y-5">
+                <img src="./img/surface3.webp" alt="">
+                <button class="bg-red-900 text-white py-2 px-4 text-xs">New</button>
+                <h3 class="text-xl font-bold">The most powerful Pro</h3>
+                <p class="text-sm">Give endless inspiration this season—and for years to<br> come—with the brand-new Surface Pro 8.</p>
+                <button class="hover:underline text-red-900 font-bold text-sm">Shop Surface Pro 8</button>
+            </div>
+            <div class="space-y-5">
+                <img src="./img/game.webp" alt="">
+                <h3 class="text-xl font-bold">Xbox Game Pass for PC</h3>
+                <p class="text-sm">Unwrap 100+ great games and EA Play, plus get your<br> first 3 months for $1. Offer available to new subscribers<br> only.</p>
+                <button class="hover:underline text-red-900 font-bold text-sm">Join now</button>
+            </div>
+        </section>
+
+        <section class="py-10 relative">
+            <img class="w-full relative" src="./img/cover3.webp" alt="">
+            <div class="absolute top-32 ml-32 text-white space-y-3">
+                <h3 class="text-4xl font-bold">Windows 11 and Intel</h3>
+                <p class="text-sm">See how Windows 11 PCs and Intel Evo bring you closer to what you love</p>
+                <button class="text-black p-3 hover:underline bg-white font-bold text-sm">Explore Windows 11</button>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="text-xl font-bold">For business</h3>
+            <div class="flex justify-between py-10">
+                <div class="space-y-5">
+                    <img src="./img/business1.webp" alt="">
+                    <h3 class="text-xl font-bold">Surface Pro 7+ for Business</h3>
+                    <p class="text-sm">Power your productivity with this versatile 2-in-1, now<br> with optional LTE Advanced connectivity. Questions?<br> Book an online appointment.</p>
+                    <button class="hover:underline text-red-900 font-bold text-sm">Shop now</button>
+                    <button class="hover:underline text-red-900 font-bold text-sm">Book consultation</button>
+                </div>
+                <div class="space-y-5">
+                    <img src="./img/business2.webp" alt="">
+                    <h3 class="text-xl font-bold">Accelerate your sustainability journey</h3>
+                    <p class="text-sm">Record, report, and reduce your organization’s<br> environmental impact with Microsoft Cloud for<br> Sustainability—now available in preview.</p>
+                    <button class="hover:underline text-red-900 font-bold text-sm">Learn more</button>
+                    <button class="hover:underline text-red-900 font-bold text-sm">Watch now</button>
+                </div>
+                <div class="space-y-5">
+                    <img src="./img/business3.webp" alt="">
+                    <h3 class="text-xl font-bold">HoloLens 2</h3>
+                    <p class="text-sm">Exclusive to Microsoft Store—15% off the device<br> designed for precise, efficient hands-free work*</p>
+                    <button class="hover:underline text-red-900 font-bold text-sm">Shop HoloLens 2</button>
+                </div>
+                <div class="space-y-5">
+                    <img src="./img/business4.webp" alt="">
+                    <h3 class="text-xl font-bold">Get Microsoft Teams for free</h3>
+                    <p class="text-sm">Online meetings, chat, and up to 10 GB of shared cloud<br> storage—all in one place.</p>
+                    <button class="hover:underline text-red-900 font-bold text-sm">Sign up for free</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="bg-gray-200 text-center p-5 space-y-2 mb-5">
+            <h3 class="text-4xl font-bold">Microsoft's response to COVID-19</h3>
+            <p class="text-sm">Read how we’re responding to the COVID-19 outbreak, and get resources to help.</p>
+            <button class="text-sm hover:underline font-bold">Learn more</button>
+        </section>
+
+        <section class="mt-4">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides2 fade">
+                    <img src="./img/cover5.webp" class="w-full relative">
+                    <div class="absolute top-20 right-0 mr-28 text-white space-y-4">
+                        <h3 class="text-4xl font-bold">Billie Jean King changes the<br> game</h3>
+                        <p class="text-sm">Microsoft partners with the tennis legend to deliver new match insights during<br> the Billie Jean King Cup by BNP Paribas Final, the Women's World Cup of<br> Tennis</p>
+                        <button class="text-black p-2 hover:underline bg-white font-bold text-sm">Learn more</button>
+                    </div>
+                    
+                </div>
+
+                <div class="mySlides2 fade">
+                    <img src="./img/cover4.png" class="w-full relative">
+                    <div class="absolute top-56 ml-28 text-white space-y-4">
+                        <h3 class="text-4xl font-bold">Go deeper into the game</h3>
+                        <p class="text-sm">See how Microsoft is helping LaLiga deliver new metrics that enable fans and<br> teams to understand the game in new and innovative ways</p>
+                        <button class="text-black p-2 hover:underline bg-white font-bold text-sm">Learn more</button>
+                    </div>
+                    
+                </div>
+                
+                <div class="text-center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+
+            </div> 
+            
+        </section>
+        
+        <section class="flex justify-around w-1/5 my-5">
+            <p class="text-gray-500">Follow Microsoft</p>
+            <img class="h-8 w-8 object-cover" src="./img/fb.jpg" alt="">
+            <img class="h-8 w-8 object-cover" src="./img/twitter.png" alt="">
+            <img class="h-8 w-8 object-cover" src="./img/linkedin.png" alt="">
+        </section>
+    </div>
+
+    <footer class="bg-gray-200">
+        <div class="w-10/12 mx-auto py-10 grid grid-cols-6">
+            <div>
+                <h3 class="text-gray-500 font-bold text-sm mb-3">What's new </h3>
+                <ul class="text-xs text-gray-500 space-y-5">
+                    <li>Surface Pro 8</li>
+                    <li>Surface Laptop Studio</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 3</li>
+                    <li>Surface Duo 2</li>
+                    <li>Surface Pro 7+</li>
+                    <li>Windows 11 apps</li>
+                    <li>HoloLens 2</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-gray-500 font-bold text-sm mb-3">What's new </h3>
+                <ul class="text-xs text-gray-500 space-y-5">
+                    <li>Surface Pro 8</li>
+                    <li>Surface Laptop Studio</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 3</li>
+                    <li>Surface Duo 2</li>
+                    <li>Surface Pro 7+</li>
+                    <li>Windows 11 apps</li>
+                    <li>HoloLens 2</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-gray-500 font-bold text-sm mb-3">What's new </h3>
+                <ul class="text-xs text-gray-500 space-y-5">
+                    <li>Surface Pro 8</li>
+                    <li>Surface Laptop Studio</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 3</li>
+                    <li>Surface Duo 2</li>
+                    <li>Surface Pro 7+</li>
+                    <li>Windows 11 apps</li>
+                    <li>HoloLens 2</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-gray-500 font-bold text-sm mb-3">What's new </h3>
+                <ul class="text-xs text-gray-500 space-y-5">
+                    <li>Surface Pro 8</li>
+                    <li>Surface Laptop Studio</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 3</li>
+                    <li>Surface Duo 2</li>
+                    <li>Surface Pro 7+</li>
+                    <li>Windows 11 apps</li>
+                    <li>HoloLens 2</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-gray-500 font-bold text-sm mb-3">What's new </h3>
+                <ul class="text-xs text-gray-500 space-y-5">
+                    <li>Surface Pro 8</li>
+                    <li>Surface Laptop Studio</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 3</li>
+                    <li>Surface Duo 2</li>
+                    <li>Surface Pro 7+</li>
+                    <li>Windows 11 apps</li>
+                    <li>HoloLens 2</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-gray-500 font-bold text-sm mb-3">What's new </h3>
+                <ul class="text-xs text-gray-500 space-y-5">
+                    <li>Surface Pro 8</li>
+                    <li>Surface Laptop Studio</li>
+                    <li>Surface Pro X</li>
+                    <li>Surface Go 3</li>
+                    <li>Surface Duo 2</li>
+                    <li>Surface Pro 7+</li>
+                    <li>Windows 11 apps</li>
+                    <li>HoloLens 2</li>
+                </ul>
+            </div> 
+        </div>
+
+        <div class="flex justify-between mx-48 py-5">
+            <a class="text-xs text-gray-500 hover:underline">English(United State)</a>
+            <div>
+                <ul class="flex justify-around space-x-5 text-xs text-gray-500">
+                    <li><a class="hover:underline cursor-pointer">Contact us</a></li>
+                    <li><a class="hover:underline cursor-pointer">Privacy</a></li>
+                    <li><a class="hover:underline cursor-pointer">Terms of use</a></li>
+                    <li><a class="hover:underline cursor-pointer">Trademarks</a></li>
+                    <li><a class="hover:underline cursor-pointer">About our ads</a></li>
+                    <li>&copy;Microsoft</li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
     
+    <script src="./js/script.js"></script>
+
+<body>
+
 </body>
 </html>
